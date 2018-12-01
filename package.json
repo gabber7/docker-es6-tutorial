@@ -1,7 +1,7 @@
 {
   "name": "app",
   "version": "1.0.0",
-  "description": "Start the tutorial [here](http://ccoenraets.github.io/es6-tutorial).",
+  "description": "Start the tutorial [here](http://gabber7.github.io/es6-tutorial).",
   "main": "index.js",
   "scripts": {
     "babel": "babel src/main.js -o public/build/main.bundle.js",
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ccoenraets/es6-tutorial.git"
+    "url": "git+https://github.com/gabber7/es6-tutorial.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ccoenraets/es6-tutorial/issues"
+    "url": "https://github.com/gabber7/es6-tutorial/issues"
   },
-  "homepage": "https://github.com/ccoenraets/es6-tutorial#readme",
+  "homepage": "https://github.com/gabber7/es6-tutorial#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
