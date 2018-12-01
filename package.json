@@ -4,8 +4,8 @@
   "description": "Start the tutorial [here](http://ccoenraets.github.io/es6-tutorial).",
   "main": "index.js",
   "scripts": {
-    "babel": "node_modules/.bin/babel -presets es2015 src/js/main.js -o src/build/main.bundle.js",
-    "start": "http-server src"
+    "babel": "babel -presets es2015 src/main.js -o public/build/main.bundle.js",
+    "start": "http-server public"
   },
   "repository": {
     "type": "git",
