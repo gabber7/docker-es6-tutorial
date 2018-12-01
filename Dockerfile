@@ -3,7 +3,7 @@ FROM node:8
 RUN mkdir -p /app/public/build
 
 COPY package.json /
-RUN npm install
+RUN npm install && rm /package.json && ln -s /app/package.json /package.json
 
 WORKDIR /app
 COPY . /app
