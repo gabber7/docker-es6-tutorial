@@ -9,5 +9,5 @@ WORKDIR /app
 COPY . /app
 
 ENV PATH $PATH:/node_modules/.bin
-CMD npm run babel && npm run start
+CMD npm run webpack && npm run start
 EXPOSE 8080/tcp
